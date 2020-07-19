@@ -2,7 +2,7 @@ from tensorflow.keras import Model
 from tensorflow.keras import backend as K
 from tensorflow.keras.layers import Conv2D, BatchNormalization, Activation, GlobalAveragePooling2D, Lambda, Reshape
 
-from ghost_bottleneck.bottleneck import GBNeck
+from .ghost_bottleneck.bottleneck import GBNeck
 
 
 class GhostNet(Model):
